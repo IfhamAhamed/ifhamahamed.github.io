@@ -7,4 +7,4 @@ The blockchain is one of the decentralized technologies was initially introduced
 
  
 
-![How it Works]({{site.baseurl}}/https://image.slidesharecdn.com/binary-170713123240/95/binarycom-what-is-ethereum-and-how-does-it-work-9-638.jpg?cb=1499950428)
+![How it Works]({{site.baseurl}}/[https://image.slidesharecdn.com/binary-170713123240/95/binarycom-what-is-ethereum-and-how-does-it-work-9-638.jpg?cb=1499950428](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Ftutorials%2Fblockchain-tutorial%2Fwhat-is-ethereum&psig=AOvVaw0W6szQi6HsgARKzjHI3G8W&ust=1721289806830000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCKCC-6zOrYcDFQAAAAAdAAAAABAE))
