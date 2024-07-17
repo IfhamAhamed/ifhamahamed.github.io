@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-##  Siple Port scanner 
+##  Simple Port Scanner 
 This simple port scanner uses Python to check the status of a range of ports on a target machine. It helps determine which ports are open and listening on the target, which can be useful for network troubleshooting and security assessments.
 
 import socket
@@ -11,25 +11,25 @@ from datetime import datetime
 
 subprocess.call('cls', shell=True)
 
-/ Ask for input
+ Ask for input
 
 remoteServer = input("Enter a remote host to scan: ")
 remoteServerIP = socket.gethostbyname(remoteServer)
 
-/ Print a nice banner with information on which host we are about to scan
+Print a nice banner with information on which host we are about to scan
 
 print ("-" * 60)
 print ("Please wait, scanning remote host", remoteServerIP)
 print ("-" * 60)
 
-/ Check what time the scan started
+ Check what time the scan started
 
 t1 = datetime.now()
 
-/ Using the range function to specify ports (here it will scans all ports
-/ between 1 and 1024)
+ Using the range function to specify ports (here it will scans all ports
+ between 1 and 1024)
 
-/ We also put in some error handling for catching errors
+ We also put in some error handling for catching errors
 
 try:
     for port in range(1,1025):
@@ -50,10 +50,10 @@ except socket.error:
     print ("Couldn't connect to server")
     sys.exit()
 
-/ Checking the time again
+ Checking the time again
 t2 = datetime.now()
 
-/ Calculates the difference of time, to see how long it took to run the script
+ Calculates the difference of time, to see how long it took to run the script
 total = t2 - t1
 
 / Printing the information to screen
